@@ -1,0 +1,11 @@
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/bin/Debug/netcoreapp2.2/BoxingUnboxing.deps.json
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/bin/Debug/netcoreapp2.2/BoxingUnboxing.runtimeconfig.json
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/bin/Debug/netcoreapp2.2/BoxingUnboxing.runtimeconfig.dev.json
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/bin/Debug/netcoreapp2.2/BoxingUnboxing.dll
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/bin/Debug/netcoreapp2.2/BoxingUnboxing.pdb
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/obj/Debug/netcoreapp2.2/BoxingUnboxing.csprojAssemblyReference.cache
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/obj/Debug/netcoreapp2.2/BoxingUnboxing.csproj.CoreCompileInputs.cache
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/obj/Debug/netcoreapp2.2/BoxingUnboxing.AssemblyInfoInputs.cache
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/obj/Debug/netcoreapp2.2/BoxingUnboxing.AssemblyInfo.cs
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/obj/Debug/netcoreapp2.2/BoxingUnboxing.dll
+/Users/artemtodorov/Desktop/Coding Dojo Files/C#/BoxingUnboxing/obj/Debug/netcoreapp2.2/BoxingUnboxing.pdb
