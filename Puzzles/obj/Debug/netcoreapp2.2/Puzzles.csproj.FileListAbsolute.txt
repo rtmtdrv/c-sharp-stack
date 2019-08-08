@@ -1,0 +1,11 @@
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/bin/Debug/netcoreapp2.2/Puzzles.deps.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/bin/Debug/netcoreapp2.2/Puzzles.runtimeconfig.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/bin/Debug/netcoreapp2.2/Puzzles.runtimeconfig.dev.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/bin/Debug/netcoreapp2.2/Puzzles.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/bin/Debug/netcoreapp2.2/Puzzles.pdb
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/obj/Debug/netcoreapp2.2/Puzzles.csprojAssemblyReference.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/obj/Debug/netcoreapp2.2/Puzzles.csproj.CoreCompileInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/obj/Debug/netcoreapp2.2/Puzzles.AssemblyInfoInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/obj/Debug/netcoreapp2.2/Puzzles.AssemblyInfo.cs
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/obj/Debug/netcoreapp2.2/Puzzles.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Puzzles/obj/Debug/netcoreapp2.2/Puzzles.pdb
