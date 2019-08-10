@@ -1,0 +1,11 @@
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.deps.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.runtimeconfig.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.runtimeconfig.dev.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.pdb
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.csprojAssemblyReference.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.csproj.CoreCompileInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.AssemblyInfoInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.AssemblyInfo.cs
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.pdb
