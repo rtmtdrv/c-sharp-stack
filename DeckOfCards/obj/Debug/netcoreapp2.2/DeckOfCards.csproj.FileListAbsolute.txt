@@ -1,0 +1,11 @@
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/obj/Debug/netcoreapp2.2/DeckOfCards.csprojAssemblyReference.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/obj/Debug/netcoreapp2.2/DeckOfCards.csproj.CoreCompileInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/obj/Debug/netcoreapp2.2/DeckOfCards.AssemblyInfoInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/obj/Debug/netcoreapp2.2/DeckOfCards.AssemblyInfo.cs
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/bin/Debug/netcoreapp2.2/DeckOfCards.deps.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/bin/Debug/netcoreapp2.2/DeckOfCards.runtimeconfig.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/bin/Debug/netcoreapp2.2/DeckOfCards.runtimeconfig.dev.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/bin/Debug/netcoreapp2.2/DeckOfCards.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/bin/Debug/netcoreapp2.2/DeckOfCards.pdb
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/obj/Debug/netcoreapp2.2/DeckOfCards.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/DeckOfCards/obj/Debug/netcoreapp2.2/DeckOfCards.pdb
