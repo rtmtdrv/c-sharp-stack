@@ -1,0 +1,11 @@
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/bin/Debug/netcoreapp2.2/Phone.deps.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/bin/Debug/netcoreapp2.2/Phone.runtimeconfig.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/bin/Debug/netcoreapp2.2/Phone.runtimeconfig.dev.json
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/bin/Debug/netcoreapp2.2/Phone.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/bin/Debug/netcoreapp2.2/Phone.pdb
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/obj/Debug/netcoreapp2.2/Phone.csprojAssemblyReference.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/obj/Debug/netcoreapp2.2/Phone.csproj.CoreCompileInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/obj/Debug/netcoreapp2.2/Phone.AssemblyInfoInputs.cache
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/obj/Debug/netcoreapp2.2/Phone.AssemblyInfo.cs
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/obj/Debug/netcoreapp2.2/Phone.dll
+/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/Phone/obj/Debug/netcoreapp2.2/Phone.pdb
