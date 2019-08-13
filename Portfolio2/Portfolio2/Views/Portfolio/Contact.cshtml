@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Portfolio - Contact</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Peter Griffin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="/projects">Projects</a>
+                    <a class="nav-item nav-link active" href="/contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <section style="height: 100vh;">
+            <div class="container mt-5">
+              <h1 class="text-center">Contact</h1>
+              <form class="mt-5">
+                <div class="row">
+                  <div class="col-6 mt-4">
+                    <div class="form-group row">
+                      <label for="name" class="col-sm-2 col-form-label">Name</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="email" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                      </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-md btn-secondary float-right">Send</button>
+              </form>
+            </div>
+    </section>
+    <footer class="bg-dark text-white" style="padding: 20px;">
+        <p>Copyright &copy; Art 2019</p>
+    </footer>
+    
+</body>
+</html>
