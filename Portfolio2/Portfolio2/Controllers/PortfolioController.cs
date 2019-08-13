@@ -7,7 +7,7 @@ namespace Portfolio2.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-            ViewBag.hello = "Hello world!";
+            ViewBag.hello = "Hello world! HIIII";
             return View("Index");
         }
 
