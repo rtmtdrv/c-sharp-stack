@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 namespace TimeDisplay.Controllers
 {
-    public class TimeController : Controller 
+    public class TimeDisplayController : Controller 
     {
         [HttpGet("")]
         public IActionResult Index()

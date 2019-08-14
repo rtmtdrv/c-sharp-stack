@@ -12071,23 +12071,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/arttodorov/.nuget/packages/": {},
+    "/Users/artemtodorov/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/TimeDisplay/TimeDisplay.csproj",
+      "projectUniqueName": "/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/TimeDisplay/TimeDisplay.csproj",
       "projectName": "TimeDisplay",
-      "projectPath": "/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/TimeDisplay/TimeDisplay.csproj",
-      "packagesPath": "/Users/arttodorov/.nuget/packages/",
-      "outputPath": "/Users/arttodorov/Desktop/Coding Dojo Files/c-sharp-stack/TimeDisplay/obj/",
+      "projectPath": "/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/TimeDisplay/TimeDisplay.csproj",
+      "packagesPath": "/Users/artemtodorov/.nuget/packages/",
+      "outputPath": "/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/TimeDisplay/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/arttodorov/.nuget/NuGet/NuGet.Config"
+        "/Users/artemtodorov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
