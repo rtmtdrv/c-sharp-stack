@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Users";
+    ViewData["Header"] = "Here are some users!";
+}
+
+@model List<User>
+
+<h1 style="text-align: center; margin-bottom:30px;">@ViewData["Header"]</h1>
+<div style="width:30%; border:1px solid #333; padding:20px;">
+    <!-- @{
+        for(int i = 0; i<@Model.Count;i++)
+        {
+            <p><a href="/SingleUser/@Model[i].FirstName/@Model[i].LastName">@Model[i].FirstName @Model[i].LastName</a></p>
+        }
+    } -->
+
+@foreach(var name in Model)
+{
+    <p>@name.FirstName @name.LastName</p>
+}
+</div>
+
+    
+

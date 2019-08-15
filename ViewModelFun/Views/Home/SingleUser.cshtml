@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "User";
+    ViewData["Header"] = "Here is a User!";
+}
+@model User
+
+<h1 style="text-align: center; margin-bottom:30px;">@ViewData["Header"]</h1>
+<div style="text-align: center;">
+    <h1 style="font-size: 48px;">@Model.FirstName @Model.LastName</h1>
+</div>
