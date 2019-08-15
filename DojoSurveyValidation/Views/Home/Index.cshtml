@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model User
+
+<style>
+    form {
+        width: 500px;
+        border: 1px solid black;
+        padding: 30px;
+    }
+    span {
+        color: red;
+    }
+</style>
+
+<form asp-action="Result" asp-controller="Home" method="POST">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <span asp-validation-for="Name"></span>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <label asp-for="Location"></label>
+        <span asp-validation-for="Location"></span>
+        <select asp-for="Location" class="form-control">
+            <option value="Seattle">Seattle</option>
+            <option value="San Jose">San Jose</option>
+            <option value="Online">Online</option>
+        </select>
+    </div>
+    <div class="class-group">
+        <label asp-for="FavLanguage"></label>
+        <span asp-validation-for="FavLanguage"></span>
+        <select asp-for="FavLanguage" class="form-control">
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Comment"></label>
+        <span asp-validation-for="Comment"></span>
+        <textarea asp-for="Comment" class="form-control" cols="10" rows="3"></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Submit">
+</form>

@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Result";
+}
+
+@model User
+
+<style>
+    .wrapper {
+        border: 1px solid black;
+        width: 300px;
+        margin: auto;
+        padding: 20px;
+    }
+    h1 {
+        text-decoration: underline;
+    }
+    span {
+        font-weight: bold;
+    }
+</style>
+
+<div class="wrapper">
+    <h1>Submitted Info</h1>
+    <p><span>Name:</span> @Model.Name</p>
+    <p><span>Dojo Location:</span> @Model.Location</p>
+    <p><span>Favorite Language:</span> @Model.FavLanguage</p>
+    <p><span>Comment:</span> @Model.Comment</p>
+    <a href="/">Go Back</a>
+</div>
