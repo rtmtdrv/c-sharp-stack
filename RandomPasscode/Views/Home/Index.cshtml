@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    * {
+        text-align: center;
+    }
+    h1 {
+        border: 3px solid black;
+        width: 400px;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+</style>
+<div class="wrapper">
+    <h4>Random Passcode (Passcode #@ViewBag.Count)</h4>
+    <h1>@ViewBag.Passcode</h1>
+    <form asp-action="Generate" asp-controller="Home" method="POST">
+        <input type="submit" value="Generate" class="btn btn-success">
+    </form>
+    <br>
+    <form asp-action="Reset" asp-controller="Home" method="POST">
+    <input type="submit" value="Reset" class="btn btn-secondary">
+    </form>
+</div>
