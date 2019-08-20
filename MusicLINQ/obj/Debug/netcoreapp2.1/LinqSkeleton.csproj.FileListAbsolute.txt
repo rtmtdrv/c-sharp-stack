@@ -1,0 +1,11 @@
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/bin/Debug/netcoreapp2.1/LinqSkeleton.deps.json
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/bin/Debug/netcoreapp2.1/LinqSkeleton.runtimeconfig.json
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/bin/Debug/netcoreapp2.1/LinqSkeleton.runtimeconfig.dev.json
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/bin/Debug/netcoreapp2.1/LinqSkeleton.dll
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/bin/Debug/netcoreapp2.1/LinqSkeleton.pdb
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/obj/Debug/netcoreapp2.1/LinqSkeleton.csprojAssemblyReference.cache
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/obj/Debug/netcoreapp2.1/LinqSkeleton.csproj.CoreCompileInputs.cache
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/obj/Debug/netcoreapp2.1/LinqSkeleton.AssemblyInfoInputs.cache
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/obj/Debug/netcoreapp2.1/LinqSkeleton.AssemblyInfo.cs
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/obj/Debug/netcoreapp2.1/LinqSkeleton.dll
+/Users/artemtodorov/Desktop/Coding Dojo Files/c-sharp-stack/MusicLINQ/obj/Debug/netcoreapp2.1/LinqSkeleton.pdb
