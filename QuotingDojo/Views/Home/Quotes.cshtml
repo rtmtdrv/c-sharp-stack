@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Quotes";
+}
+<link rel="stylesheet" href="~/css/quotes.css">
+<div class="wrapper">
+    <h1>Here are the awesome quotes!</h1>
+    @foreach (var quote in ViewBag.Quotes)
+    {
+        <div class="quotes">
+            <p>"@quote[@"quotes"]"</p>
+            <p class="creator">- @quote["name"] at @quote["created_at"].ToString("h:mmtt on MMM d, yyy")</p>
+        </div>
+    }
+</div>
+<a href="/" class="btn btn-danger">Go Back</a>
