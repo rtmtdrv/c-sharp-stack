@@ -1,0 +1,21 @@
+.wrapper {
+    width: 1000px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.home {
+    margin-left: 475px;
+}
+
+.edit {
+    margin-top: 10px;
+}

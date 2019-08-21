@@ -1,0 +1,12 @@
+@model Dish
+<link rel="stylesheet" href="~/css/show.css">
+<div class="wrapper">
+    <a href="/" class="btn btn-primary home">Home</a>
+    <h1>@Model.Name</h1>
+    <h3>@Model.Chef</h3>
+    <p>@Model.Description</p>
+    <p><strong>Calories:</strong> @Model.Calories</p>
+    <p><strong>Tastiness:</strong> @Model.Tastiness</p>
+    <form action="delete/@Model.DishId" method="post"><input type="submit" value="Delete" class="btn btn-danger"></form>
+    <a href="edit/@Model.DishId" class="btn btn-primary edit">Edit</a>
+</div>

@@ -1,0 +1,15 @@
+.wrapper {
+    width: 1000px;
+}
+
+form {
+    width: 350px;
+}
+
+* {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
