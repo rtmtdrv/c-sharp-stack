@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WeddingPlanner.Models;
 
 namespace WeddingPlanner.Controllers
@@ -17,7 +18,6 @@ namespace WeddingPlanner.Controllers
             get { return HttpContext.Session.GetInt32("UserId"); }
             set { HttpContext.Session.SetInt32("UserId", (int)value); }
         }
-
         private MyContext dbContext;
         public HomeController(MyContext context)
         {
@@ -56,11 +56,11 @@ namespace WeddingPlanner.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginUser currUser)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 // Check if email exists in database
                 var existingUser = dbContext.Users.FirstOrDefault(u => u.Email == currUser.LoginEmail);
-                if(existingUser == null)
+                if (existingUser == null)
                 {
                     ModelState.AddModelError("LoginEmail", "Invalid Email/Password");
                     return View("Index");
@@ -83,12 +83,6 @@ namespace WeddingPlanner.Controllers
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Index");
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
