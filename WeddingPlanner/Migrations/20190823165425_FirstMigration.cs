@@ -37,11 +37,18 @@ namespace WeddingPlanner.Migrations
                     Date = table.Column<DateTime>(nullable: false),
                     Address = table.Column<string>(nullable: false),
                     CreatedAt = table.Column<DateTime>(nullable: false),
-                    UpdatedAt = table.Column<DateTime>(nullable: false)
+                    UpdatedAt = table.Column<DateTime>(nullable: false),
+                    UserId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_weddings", x => x.WeddingId);
+                    table.ForeignKey(
+                        name: "FK_weddings_users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "users",
+                        principalColumn: "UserId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -62,11 +69,27 @@ namespace WeddingPlanner.Migrations
                         principalTable: "users",
                         principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_responses_weddings_WeddingId",
+                        column: x => x.WeddingId,
+                        principalTable: "weddings",
+                        principalColumn: "WeddingId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_responses_UserId",
                 table: "responses",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_responses_WeddingId",
+                table: "responses",
+                column: "WeddingId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_weddings_UserId",
+                table: "weddings",
                 column: "UserId");
         }
 

@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using csharp_belt_exam.Models;
 
-namespace CSharpBelt
+namespace csharp_belt_exam
 {
     public class Startup
     {

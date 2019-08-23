@@ -9,7 +9,7 @@ using WeddingPlanner.Models;
 namespace WeddingPlanner.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20190822213954_FirstMigration")]
+    [Migration("20190823165425_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,6 +31,8 @@ namespace WeddingPlanner.Migrations
                     b.HasKey("ResponseId");
 
                     b.HasIndex("UserId");
+
+                    b.HasIndex("WeddingId");
 
                     b.ToTable("responses");
                 });
@@ -75,6 +77,8 @@ namespace WeddingPlanner.Migrations
 
                     b.Property<DateTime>("UpdatedAt");
 
+                    b.Property<int>("UserId");
+
                     b.Property<string>("WedderOne")
                         .IsRequired();
 
@@ -83,6 +87,8 @@ namespace WeddingPlanner.Migrations
 
                     b.HasKey("WeddingId");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("weddings");
                 });
 
@@ -90,6 +96,19 @@ namespace WeddingPlanner.Migrations
                 {
                     b.HasOne("WeddingPlanner.Models.User", "Guest")
                         .WithMany("ResponsesGiven")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("WeddingPlanner.Models.Wedding")
+                        .WithMany("Responses")
+                        .HasForeignKey("WeddingId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("WeddingPlanner.Models.Wedding", b =>
+                {
+                    b.HasOne("WeddingPlanner.Models.User", "Planner")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

@@ -42,6 +42,7 @@ namespace csharp_belt_exam.Models
 
         public DateTime CreatedAt {get;set;}
         public DateTime UpdatedAt {get;set;}
+        public List<Participant> ParticipantsJoined {get;set;}
     }
 
     public class LoginUser 

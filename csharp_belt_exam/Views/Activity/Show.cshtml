@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"]="Show";
+}
+
+@model Activity
+<link rel="stylesheet" href="~/css/activity/show.css">
+<h1>@Model.Title<a asp-action="Join" asp-controller="Participant" asp-route-activityId="@Model.ActivityId" class="btn btn-primary">Join</a><a href="dashboard" class="btn btn-primary">Dashboard</a></h1>
+<h4><u>Event Coordinator:</u> User# @Model.UserId</h4>
+<h4><u>Date:</u> @Model.Date.ToString("MMMM d, yyy")</h4>
+<h4><u>Description:</u> @Model.Description</h4>
+
+<h4><u>Participants:</u></h4>
+<ul>
+    @foreach (var participant in @Model.Participants)
+    {
+        <li>@participant.Person.FirstName @participant.Person.LastName</li>
+    }
+</ul>
+
+

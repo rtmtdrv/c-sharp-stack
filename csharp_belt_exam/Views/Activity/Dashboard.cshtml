@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"]="Dashboard";
+}
+
+@model List<Activity>
+<style>
+    table {
+        border: 3px solid black;
+    }
+    .btn-danger {
+        margin-left: 10px;
+    }
+
+</style>
+<h1>Here are our activities:</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Activity</th>
+            <th scope="col">Date</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Event Coordinator</th>
+            <th scope="col">No. of Participants</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var activity in Model)
+        {
+            <tr>
+                <td><a asp-action="Show" asp-controller="Activity" asp-route-activityId="@activity.ActivityId">@activity.Title</a></td>
+                <td>@activity.Date.ToString("MMMM d, yyy")</td>
+                <td>@activity.Duration</td>
+                <td>User #@activity.UserId</td>
+                <td>@activity.Participants.Count</td>
+                @if (activity.UserId == ViewBag.UserId)
+                {
+                    <td><a asp-action="Delete" asp-controller="Activity" asp-route-activityId="@activity.ActivityId">Delete</a></td>
+                }
+                else if (activity.Participants.Any(p => p.UserId == ViewBag.UserId))
+                {
+                    <td><a asp-action="Leave" asp-controller="Participant" asp-route-activityId="@activity.ActivityId">Leave</a></td>
+                }
+                else
+                {
+                    <td><a asp-action="Join" asp-controller="Participant" asp-route-activityId="@activity.ActivityId">Join</a></td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="New" asp-controller="Activity" class="btn btn-primary">Add New Activity</a>
+<a href="/logout" class="btn btn-danger">Log Out</a>

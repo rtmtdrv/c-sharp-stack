@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using csharp_belt_exam.Models;
 
-namespace WeddingPlanner.Controllers
+namespace csharp_belt_exam.Controllers
 {
     public class HomeController : Controller
     {
@@ -48,7 +48,7 @@ namespace WeddingPlanner.Controllers
                 dbContext.Users.Add(newUser);
                 dbContext.SaveChanges();
                 UserSession = newUser.UserId;
-                return RedirectToAction("Dashboard", "Wedding");
+                return RedirectToAction("Dashboard", "Activity");
             }
             return View("Index");
         }
@@ -73,7 +73,7 @@ namespace WeddingPlanner.Controllers
                     return View("Index");
                 }
                 UserSession = existingUser.UserId;
-                return RedirectToAction("Dashboard", "Wedding");
+                return RedirectToAction("Dashboard", "Activity");
             }
             return View("Index");
         }
